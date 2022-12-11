@@ -5,14 +5,14 @@ public class Pkw {
     private String name;
     private int grundtarif;
     private boolean verfuegbarkeit;
-    private int tuerenazahl;
+    private int tuerenanzahl;
     private String getriebe;
 
     public Pkw(String name, int grundtarif, boolean verfuegbarkeit, int tuerenazahl, String getriebe) {
         this.name = name;
         this.grundtarif = grundtarif;
         this.verfuegbarkeit = verfuegbarkeit;
-        this.tuerenazahl = tuerenazahl;
+        this.tuerenanzahl = tuerenazahl;
         this.getriebe = getriebe;
     }
 
@@ -22,7 +22,7 @@ public class Pkw {
                 "name='" + name + '\'' +
                 ", grundtarif=" + grundtarif +
                 ", verfuegbarkeit=" + verfuegbarkeit +
-                ", tuerenazahl=" + tuerenazahl +
+                ", tuerenazahl=" + tuerenanzahl +
                 ", getriebe='" + getriebe + '\'' +
                 '}';
     }
@@ -52,11 +52,11 @@ public class Pkw {
     }
 
     public int getTuerenazahl() {
-        return tuerenazahl;
+        return tuerenanzahl;
     }
 
     public void setTuerenazahl(int tuerenazahl) {
-        this.tuerenazahl = tuerenazahl;
+        this.tuerenanzahl = tuerenazahl;
     }
 
     public String getGetriebe() {
