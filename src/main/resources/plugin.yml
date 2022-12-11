@@ -1,0 +1,11 @@
+name: CarRent
+version: 1
+api-version: 1.16
+main: bta.carrent.CarRent
+authors:
+  - Moritzuff
+  - with help of sqyyy
+website: https://github.com/moritzuff/CarRent_GmbH_MC
+commands:
+  create:
+    description: Erstellt ein Objekt deiner Wahl (PKW, LKW, Kunde oder Mitarbeiter)
