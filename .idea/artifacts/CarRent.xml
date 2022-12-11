@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CarRent">
+    <output-path>$USER_HOME$/Desktop/1.16.5 test/plugins</output-path>
+    <root id="archive" name="CarRent.jar">
+      <element id="library" level="project" name="spigot" />
+      <element id="module-output" name="CarRent_GmbH_MC" />
+    </root>
+  </artifact>
+</component>
