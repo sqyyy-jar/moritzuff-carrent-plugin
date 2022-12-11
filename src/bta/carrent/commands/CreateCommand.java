@@ -1,11 +1,14 @@
 package bta.carrent.commands;
 
 import bta.carrent.CarRent;
+import bta.carrent.fahrzeuge.Pkw;
+import bta.carrent.listeners.ChatListener;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+F
 public class CreateCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -16,8 +19,7 @@ public class CreateCommand implements CommandExecutor {
                 player.sendMessage(CarRent.pluginName + "Syntax: /create PKW; LKW; KUNDE; MITARBEITER");
 
             } else if (args[0].equalsIgnoreCase("pkw")) {
-                player.sendMessage("Bitte geben Sie den Namen des PKWs ein.");
-
+                
 
             } else if (args[0].equalsIgnoreCase("lkw")) {
 
